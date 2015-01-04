@@ -1,0 +1,6 @@
+Chai Yi
+1.Complie scalable_bounded_buffer.c: use the following command: 
+	gcc -pthread -O -o sbb scalable_bounded_buffer.c
+2.Run the program: use the following command:
+	./sbb -n 8 -p 1
+(ps: "-n" is to specify the threads number, "-p" is to print the debugging info)

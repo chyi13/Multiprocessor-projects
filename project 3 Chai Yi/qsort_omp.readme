@@ -1,0 +1,5 @@
+// Chai Yi 2014/5/26
+1. Compile, use following command
+	gcc -fopenmp -o qsort_omp qsort_omp.c
+2. run, my approach is fixed on 8 thread. Run with the following command. -p is print flag.
+	./qsort_omp -p 0

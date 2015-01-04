@@ -1,0 +1,9 @@
+//author: Chai Yi chyi13@student.bth.se
+1. compile: mpicc -o laplace laplace_row.c
+2. run:   [-f] filename   // input matrix with a specific file name as m.txt
+		  [-p] 			  // print result
+		  [-l] difflimit  // input difference limit if not, default limit is 0.02048
+		  [-u] 			  // help
+		  [-o] option	  // if not inputting from file, option could be 0 fast or 1 rand
+						  // with a 2048*2048 matrix 
+  example: mpirun -np 4 laplace -f m.txt -p -l 0.0001

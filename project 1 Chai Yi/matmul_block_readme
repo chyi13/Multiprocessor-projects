@@ -1,0 +1,4 @@
+//author: Chai Yi chyi13@student.bth.se
+// matrix matrix multiplication: 1024*1024 and 1024* 1024
+1.compile: mpicc -o matmul_block matmul_block.c -lm
+2.run:     mpirun -np 4 matmul_block

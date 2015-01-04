@@ -1,0 +1,5 @@
+// Chai Yi 2014/5/26
+1. Compile with following command:
+	gcc -fopenmp -o gaussian_omp gaussian_omp.c
+2. Run. "-p" is thread number. "-n" is matrix dimensional size. "-P" is print flag. "-I" is initializing type.
+	./gaussian_omp -n 4096 -P 0

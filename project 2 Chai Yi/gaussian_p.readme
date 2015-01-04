@@ -1,0 +1,7 @@
+Chai Yi
+1.Compile gaussian_p.c by the following command:
+	gcc -pthread -O -o gp gaussian_p.c
+2.Run 
+	./gp -p 8 -n 4096 -P 0
+("-p" is to specify number of threads, "-n" is the size of matrix and "-P" is the print flag)
+(In the program, the maximum thread number is 32)
